@@ -1,0 +1,9 @@
+name: shchmax
+main: com.shchmax.app.App
+version: 1.0-SNAPSHOT
+
+commands:
+  basic:
+    description: Тестовый вывод
+    permission: shchmaxTestPlugin.basic
+    usage: What the shit is this?
