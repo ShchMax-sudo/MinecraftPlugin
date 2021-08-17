@@ -1,11 +1,17 @@
-name: sleep
+name: Sleep
 main: com.shchmax.app.App
 version: 1.0-SNAPSHOT
 
 commands:
   sleepingplayers:
     description: Print sleeping players list
-    usage: What it means?
+    usage: /sleepingplayers
   awakeplayers:
     description: Print awaking players list
-    usage: What it means?
+    usage: /awakeplayers
+  issleeping:
+    description: Print if the player sleep or not
+    usage: /issleeping <player>
+  autoblurryeyes:
+    description: Prints or sets part of player what needs to sleep to skip night
+    usage: /autoblurryeyes [percents]
