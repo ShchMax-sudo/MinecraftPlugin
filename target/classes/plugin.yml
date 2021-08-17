@@ -1,0 +1,11 @@
+name: sleep
+main: com.shchmax.app.App
+version: 1.0-SNAPSHOT
+
+commands:
+  sleepingplayers:
+    description: Print sleeping players list
+    usage: What it means?
+  awakeplayers:
+    description: Print awaking players list
+    usage: What it means?

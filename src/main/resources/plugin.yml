@@ -1,9 +1,9 @@
-name: shchmax
+name: sleep
 main: com.shchmax.app.App
 version: 1.0-SNAPSHOT
 
 commands:
-  basic:
-    description: Тестовый вывод
-    permission: shchmaxTestPlugin.basic
-    usage: What the shit is this?
+  sleepingplayers:
+    description: Print sleeping players list
+  awakeplayers:
+    description: Print awaking players list
